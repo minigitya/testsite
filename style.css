@@ -1,0 +1,105 @@
+*
+{
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+body
+{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
+	background: #191919;
+	text-align: center;
+	color: #000000;
+	font-size: 18px;
+	display: block;
+	background: #fff;
+}
+body a{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.main-editor-area{
+	display: block;
+	float: none;
+	clear: both;
+	border: 2px dashed #9ac1e2;
+	width: 90%;
+	min-height: 1000px;
+	margin: 30px auto 0 auto;
+}
+.step-area{
+	display: block;
+	float: none;
+	clear: both;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.step-area .title{
+	display: block;
+	float: none;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	line-height: 60px;
+	font-weight: bold;
+	color: #9ac1e2;
+}
+.makets-step-selector{
+	display: block;
+	float: none;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+	line-height: 0;
+}
+.makets-step-selector a{
+	display: inline-block;
+	vertical-align: middle;
+	width: 220px;
+	height: 220px;
+	border: 1px dashed #9ac1e2;
+	text-decoration: none;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+.makets-step-selector a .name{
+	display: block;
+	float: none;
+	clear: both;
+	font-size: 15px;
+	line-height: 24px;
+	color: #9ac1e2;
+}
+.makets-step-selector a .desc{
+	display: block;
+	float: none;
+	clear: both;
+	font-size: 13px;
+	line-height: 17px;
+	color: #9ac1e2;
+}
+.makets-step-selector a .popup-demo{
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+	transition: all 0.5s;
+	top: 220px;
+}
+.makets-step-selector a:hover .popup-demo{
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+}
+.makets-step-selector a .popup-demo img{
+	width: 100%;
+	height: 100%;
+}
